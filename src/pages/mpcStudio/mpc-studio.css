@@ -1,0 +1,26 @@
+.mpc-container {
+  width: 732px;
+  height: 644px;
+  display: flex;
+  background-color: grey;
+}
+
+.potar-container {
+  width: 14.2%;
+  height: 100%;
+  background-color: blue;
+}
+
+.central-container {
+  width: 52.5%;
+  height: 100%;
+  background-color: royalblue;
+}
+
+.settings-container {
+  width: 32.8%;
+  height: 100%;
+  background-color: red;
+}
+
+
