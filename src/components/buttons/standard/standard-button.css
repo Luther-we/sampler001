@@ -1,0 +1,43 @@
+.standard-button-sub-container {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    flex: 0 0 20%;
+    flex-wrap: wrap;
+
+    /*background-color: slategrey;*/
+}
+
+.click-standard {
+    width: 80%;
+    height: 41.6%;
+    background-color: black;
+}
+
+.function-name {
+    font-family: 'Heebo', sans-serif;
+    /*line-height: 1em;*/
+    font-size: 70%;
+    color: white;
+    text-transform: uppercase;
+    /*align-self: flex-start;*/
+    /*justify-self: flex-start;*/
+    /*vertical-align: top;*/
+
+}
+
+.secondary-name {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 100%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 50%;
+    text-transform: uppercase;
+    color: red;
+    margin-top: 10%;
+}
+
+
+
+
+
+
