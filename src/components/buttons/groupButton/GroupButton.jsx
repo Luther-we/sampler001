@@ -4,10 +4,11 @@ import StandardButton from '../standard/StandardButton'
 import './group-button.css'
 
 const TitlePad = (props) => {
+  console.log('props', props)
   return (
     <>
       <div
-        className="title-pad-sub-container"
+        className="title-pad-sub-container-medium"
       >
         <h1>
         {props.title}
@@ -80,6 +81,7 @@ class GroupButton extends PureComponent {
         >
           <TitlePad
             title={title}
+
           />
         </div>
 

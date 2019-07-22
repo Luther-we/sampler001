@@ -1,23 +1,7 @@
 import React from 'react'
 import GroupButton from '../../components/buttons/groupButton/GroupButton';
 import { padBank } from '../../modules/utils/mapTouch';
-import { mapSettings } from './mapSettings';
 import './settings-container.css'
-
-const renderMapSettings = () => {
-  return (
-    mapSettings.map((item, index) => {
-      return(
-        <div>
-          <GroupButton
-            key={index}
-            touchs={item.keymap}
-          />
-        </div>
-      )
-    })
-  )
-}
 
 const IntOutContainer = (props) => {
   return(
