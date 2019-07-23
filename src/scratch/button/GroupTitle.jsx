@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react'
 
+const groupTitleConst = {
+  marginTitle: 3
+}
+
 export const GroupTitle = ({ groupProps: {title}}) => {
-  // console.log(props)
 
   useEffect(() => {
-    // defineLayoutSize()
     defineDecorationTitleSize()
   }, [])
 
@@ -19,9 +21,9 @@ export const GroupTitle = ({ groupProps: {title}}) => {
 
     Array.prototype.forEach.call(containersWidthList, (item, index) => {
       const containerWidth = item.offsetWidth
-      const tilteWidth = tiltesWidthList[index].offsetWidth
-      let targetWidth = containerWidth - tilteWidth
-      targetWidth = targetWidth/2
+      const titleWidth = tiltesWidthList[index].offsetWidth
+      let targetWidth = containerWidth - titleWidth
+      targetWidth = targetWidth/2 - targetWidth*groupTitleConst.marginTitle/100
 
       const target = document.getElementsByClassName('avant-titre')[index]
       const target2 = document.getElementsByClassName('après-titre')[index]

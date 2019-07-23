@@ -1,0 +1,115 @@
+.scratch-ctn {
+    width: 52.5%;
+    height: 700px;
+    /*border: 2px solid black;*/
+    background-image: url('https://www.psdgraphics.com/file/dark-metal-texture.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.stch-screen {
+    border: 1.5em black solid;
+    border-radius: 12px;
+    width: 80%;
+    height: 12%;
+    background-color: #61dafb;
+    color: white;
+    margin-top: 6%
+}
+
+.stch-screen:after {
+    /*font-family: "Work Sans", sans-serif;*/
+    font-weight: 600;
+    content: 'MPC STUDIO';
+    color: white;
+    display: block;
+    margin-top: 19%;
+    text-align: center;
+
+    /*align-content: flex-end;*/
+}
+
+.stch-function {
+    width: 80%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stch-fct-tch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.stch-fct-tch:after {
+    content: '';
+    height: 50%;
+    /*width: 100s%;*/
+    /*margin-top: -20%;*/
+    display: flex;
+    /*background-color: white;*/
+    border-left: 1px dotted white;
+    align-self: flex-start;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.padcontainer {
+    width: 80%;
+    border: 10px solid black;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.touchpadcontainer {
+    flex: 0 0 22%;
+    /*width: 14%;*/
+    color: white;
+    padding: 1%;
+}
+
+.padtitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h4 {
+    color: white;
+    font-size: 50%;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.padtouchmarking {
+
+}
+
+.padtouchsubmarking {
+}
+
+
+.touchpad {
+    width: 100%;
+    content: '';
+    height: 100%;
+    background-color: slategrey;
+    border: green 2px solid;
+}
+
+

@@ -1,0 +1,42 @@
+.scratch-group-in-out {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+h3 > a {
+    color: white;
+}
+
+
+.scratch-group-logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 33%;
+}
+
+.ctn-lg {
+    width: 60%;
+    display: flex;
+}
+
+.logo {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 300%;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.sub-logo {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 95%;
+    margin-top: -10%;
+}

@@ -26,9 +26,12 @@ export const DevStandardButton = ({marking, subMarking}) => {
         <div className="yami">
           {getLigthBarComponent()}
         </div>
-        <h3 className="marking">
-          {getMarking()}
-        </h3>
+        <div className="test">
+          <h3 className="marking">
+            {getMarking()}
+          </h3>
+        </div>
+
       </div>
       <h3 className="sub-marking">
         {getSubMarking()}
